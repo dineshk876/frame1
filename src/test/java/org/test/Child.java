@@ -17,5 +17,7 @@ public static void main(String[] args) throws Throwable {
 	tofill(click, excelRead("Sheet1", 2, 6));
 	
 	driver.findElement(By.xpath("//*[@id=\"u_0_d_pE\"]")).click();
+	System.out.println(driver.getTitle());
+	System.out.println(driver.getCurrentUrl());
 } 
 }
