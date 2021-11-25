@@ -20,5 +20,8 @@ public static void main(String[] args) throws Throwable {
 	
 	driver.getCurrentUrl();
 	driver.getTitle();
+	System.out.println("java");
+	System.out.println("selenium");
+	System.out.println("cucumber");
 } 
 }
