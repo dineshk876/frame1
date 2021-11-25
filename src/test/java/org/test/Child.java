@@ -19,5 +19,6 @@ public static void main(String[] args) throws Throwable {
 	driver.findElement(By.xpath("//*[@id=\"u_0_d_pE\"]")).click();
 	System.out.println(driver.getTitle());
 	System.out.println(driver.getCurrentUrl());
+	
 } 
 }
