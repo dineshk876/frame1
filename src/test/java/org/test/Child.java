@@ -17,11 +17,16 @@ public static void main(String[] args) throws Throwable {
 	tofill(click, excelRead("Sheet1", 1, 6));
 	
 	driver.findElement(By.xpath("//*[@id=\"u_0_d_pE\"]")).click();
-	
 	driver.getCurrentUrl();
 	driver.getTitle();
+	System.out.println(driver.getTitle());
+	System.out.println(driver.getCurrentUrl());
+	
 	System.out.println("java");
 	System.out.println("selenium");
 	System.out.println("cucumber");
+
+	
+
 } 
 }
